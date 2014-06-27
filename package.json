@@ -1,0 +1,31 @@
+{
+  "name": "task-eslint",
+  "version": "0.1.0",
+  "main": "lib/eslint.js",
+  "description": "Validate files with ESLint.",
+  "homepage": "https://github.com/taskjs/task-eslint",
+  "bugs": "https://github.com/taskjs/task-eslint/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-eslint"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "eslint"
+  ],
+  "dependencies": {
+    "eslint": "^0.6.2",
+    "execution": "^0.1.2"
+  },
+  "scripts": {
+    "test": "node test/eslint_test"
+  }
+}
