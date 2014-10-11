@@ -34,8 +34,16 @@ Options: `['stylish', 'compact', 'jslint-xml', 'junit', 'tap']`
 
 Use a specific output format.
 
+#### options.failOnError
+
+Type: `boolean`
+Default: `'true'`
+
+Fail when eslint error is found.
 
 ## Release History
+* 2014-10-11    0.1.2    Add failOnError option
+* 2014-10-11    0.1.1    Upgrade eslint to 0.8.2
 * 2014-06-27    0.1.0    Initial release.
 
 ## License
