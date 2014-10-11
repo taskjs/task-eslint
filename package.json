@@ -1,6 +1,6 @@
 {
   "name": "task-eslint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/eslint.js",
   "description": "Validate files with ESLint.",
   "homepage": "https://github.com/taskjs/task-eslint",
@@ -22,7 +22,7 @@
     "eslint"
   ],
   "dependencies": {
-    "eslint": "^0.6.2",
+    "eslint": "^0.8.2",
     "execution": "^0.1.2"
   },
   "scripts": {
